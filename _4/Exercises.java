@@ -30,8 +30,6 @@ public class Exercises {
                 The quick brown fox jumps over the lazy dog
                 """;
 
-//        myString = "Maledettissimo Greg";
-
         try {
 //            Files.createFile(MY_PATH);
             // Your code here
@@ -113,7 +111,7 @@ public class Exercises {
     private static void exercise4() {
         System.out.println("\nExercise 4: ");
 
-        String newString = "Greg ha rotto il ...";
+        String newString = "Questa è una nuova stringa";
 
         try {
             // Your code here
