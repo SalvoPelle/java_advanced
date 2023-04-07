@@ -29,6 +29,7 @@ public class Exercises {
         for (Days a : Days.values()){
             System.out.println(a);
         }
+
     }
 
     private enum Days {
@@ -71,6 +72,7 @@ public class Exercises {
         WINTER("From 22nd of December to 21st of March");
 
         private String stardEndSeason;
+
         Season(String stardEndSeason) {
             this.stardEndSeason = stardEndSeason;
         }
@@ -191,11 +193,12 @@ public class Exercises {
         int result = 0;
 
         switch (operation){
-            case ADD -> System.out.println((int) num1 + (int) num2);
-            case SUBSTRACT ->  System.out.println((int) num1 - (int) num2);
-            case MULTIPLY ->  System.out.println((int) num1 * (int) num2);
-            case DIVIDE ->  System.out.println((int) num1 / (int) num2);
+            case ADD -> result = (int) (num1 + num2);
+            case SUBSTRACT ->  result = (int) (num1 - num2);
+            case MULTIPLY ->  result = (int) (num1 * num2);
+            case DIVIDE ->  result = (int) (num1 / num2);
         }
+        System.out.println(result);
 
     }
      private enum Operator{
